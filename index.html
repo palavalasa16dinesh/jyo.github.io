@@ -42,44 +42,71 @@
       }
     </style>
   </head>
-  <body id="gradd">
+  <body id="gram">
     <header>
       
-    <nav class="navbar navbar-expand-md bg-primary  fixed-top ">
-         <a class="navbar-brand ml-4 " ><h1  style="font-family: Pacifico ; color: rgb(114, 12, 134);">Bujj<span style="color: rgb(16, 241, 241);">amma</span></h1></a>
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" 
-      aria-expanded="false" aria-label="toggle Navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      <nav class="navbar navbar-expand-md bg-dark  fixed-top ">
+           <div class="navbar-brand ml-4 "  ><h1 style="font-family: Pacifico; color: rgb(114, 12, 134);">Bujj<span style="color: rgb(16, 241, 241);">amma</span></h1></div>  
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" 
+        aria-expanded="false" aria-label="toggle Navigation" >
+          <span class="navbar-toggler-icon" ></span>
+        </button>
+      
+              <div class="collapse navbar-collapse"></div>
+        <div class="collapse navbar-collapse " id="navbarMenu">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">        
+              <a class="nav-link" href="index.html#home">home</a>
+              </li>
+              <li class="nav-item">      
+               <a class="nav-link" href="index.html#about">about</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="index.html#family">family</a>
+             </li>
+             <li class="nav-item">
+              <a class="nav-link" href="index.html#version">my version</a>
+             </li>
+             <li class="nav-item">
+              <a class="nav-link" href="index.html#gallery">gallery</a>
+             </li>
+             <li class="nav-item">
+              <a class="nav-link" href="index.html#videos">video</a>
+             </li>
+         
+          </ul>
+          </div>
     
-            <div class="collapse navbar-collapse"></div>
-      <div class="collapse navbar-collapse " id="navbarMenu">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">        
-            <a class="nav-link" href="#home">home</a>
-            </li>
-            <li class="nav-item">      
-             <a class="nav-link" href="#about">about</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#family">family</a>
-           </li>
-           <li class="nav-item">
-            <a class="nav-link" href="#version">my version</a>
-           </li>
-           <li class="nav-item">
-            <a class="nav-link" href="#gallery">gallery</a>
-           </li>
-           <li class="nav-item">
-            <a class="nav-link" href="#videos">video</a>
-           </li>
-       
-        </ul>
-        </div>
+      </nav>
+  </header>
   
-    </nav>
-</header>
+ <!--   <div class="navbar">
+      <div class="contain flex">
+        <h1  style="font-family: Pacifico ; color: rgb(114, 12, 134);">Bujj<span style="color: rgb(16, 241, 241);">amma</span></h1></a>
+<nav>
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item">        
+      <a class="nav-link" href="#home">home</a>
+      </li>
+      <li class="nav-item">      
+       <a class="nav-link" href="#about">about</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="#family">family</a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="#version">my version</a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="#gallery">gallery</a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="#videos">video</a>
+     </li>
+ 
+  </ul>
+  
+</nav> -->
 
 <br/>
 <br/>
@@ -166,8 +193,8 @@
  <br/>
 
    
-<div class="row justify-content-center text-center" id="about">
-  <div class="col-md-6 col-sm-12">
+<div class="row justify-content-center text-center" >
+  <div class="col-md-6 col-sm-12" id="about">
     <div class="card bio" id="grab">
       <img src="./start/s3/m/d (49).jpg" width="270px" class="mx-auto">
       <p><ul style="list-style-type: none; "><li> name:K. JYOTHI YASASVI</li>
@@ -183,10 +210,10 @@
     <div class="card family" id="graf">
       <img src="./start/s3/me/fm.jpeg    " width="270px" class="mx-auto">
       <p><ul style="list-style-type: none; ">
-        <li>dad:Gopi krishna sudhakar<strong >  </strong></li>
-        <li>mom: Varalakshmi <strong>  </strong></li>
-        
-        <li> <address>  <br/> .       </address></li>
+        <li>dad: <strong>Gopi krishna sudhakar </strong></li>
+        <li>mom: <strong> Varalakshmi   </strong></li>
+        <li>sis: <strong>Hanishka</strong></li>
+        <li> <address>  <br/>      </address></li>
            <a href="g.html#family1" ><button>VIEW MORE</button></a>
                </ul>  </p>
 
@@ -198,7 +225,7 @@
 
 
     <section id="version">
-      <div class="container">
+      <div class="container" >
         <div class="background-img">
           <div class="box">
             <span></span>
@@ -217,9 +244,10 @@
       </div>
     </section>
 
-<div class="col-md-4 col-sm-12  test" id="gallery"  >
-  <div class=" card gallery" id="test1">
-    <h1 class="heading-1" id="test2" style="font-family: cursive;"> gallery     </h1>
+
+<div class="col-md-6 col-sm-12  test" id="gallery"  >
+  <div class=" card gallery" id="test1" style="margin: 2% 13% ; ">
+    <h1 class="heading-1" id="test2" style="font-family: cursive; color: rgb(195, 231, 154);"> gallery     </h1>
     <span></span>
     <span></span>
     <br/>
@@ -237,13 +265,12 @@
       </div><button style="margin: 2% 0%;">more</button> </a>
      
 </div>
+</div>
 
-<br/>
-<br/>
-<br/>
-<div class="col-md-4 col-sm-12  "   style="float: left;margin-left: -20px;" >
-  <div class=" card " id="vidm1" style="padding-left: 5%;width: 500px;">
-    <h1 class="heading-1"  style="font-family: cursive; text-align: center;padding-left: 5%;color:crimson;"> videos    </h1>
+
+<div class="col-md-6 col-sm-12  "  >
+  <div class=" card " id="vidm1" style="padding: 2% 5% 0% 5%; width: fit-content;margin: 2% 10%;">
+    <h1 class="heading-1"  style="font-family: cursive; text-align: center;padding-left: 5%;color:rgb(190, 220, 20);"> videos    </h1>
     
     
   <div  id="videos">
@@ -254,7 +281,7 @@
        <a href="videos.html"><button style="margin: 2% 0%;">more</button> </a></div>
 
       </div>
-    
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

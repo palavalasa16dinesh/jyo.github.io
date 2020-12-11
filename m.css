@@ -2,17 +2,50 @@ body{
     font-family: 'pacifico';
   
 }
+
 li{
     padding-bottom: 2%;
 }
+li .nav-link{
+  font-size: 80%;
+  padding-bottom: 0%;
+
+}
+a.nav-link{
+  margin-bottom: 0%;
+  margin-top: 0%;
+  font-size: 25px;
+  font-family: cursive;
+}
+li.nav-item{
+  padding-bottom: 0%;
+  
+} 
+
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+ color: #333;}
+
+
+
+ .navbar a:hover{
+   border-bottom: 2px #fff solid;
+ }
+
+
+
 
 *{
   margin:0;
   padding:0;
 }
 
-.container{  padding-top: 20px;
-  padding-bottom: 20px;}
+.container{  padding-top: 5% ;
+  padding-bottom: 5% ;
+padding-right: 10%;}
   /*
 body{
   background-color: #111845;
@@ -20,7 +53,7 @@ body{
 
 .background-img{
   background-image: url("https://3.bp.blogspot.com/-piZWCW2uUbg/W2fPXxkWZgI/AAAAAAAAOu0/eydmMjTIqcwLMHEEr2H7imqoRTxMw4o9QCLcBGAs/s1600/among_trees_night_dribbble.png");
-height: 700px;
+  height: 700px;
   width: 800px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -29,7 +62,7 @@ height: 700px;
   border-radius: 4px;
   box-shadow: 0px 0px 5px #2a3cad;
   position: relative;
-  margin-left: 0%;
+
 }
 
 .content h2{ font-size:19px;}
@@ -150,17 +183,17 @@ height: 700px;
 } 
 
 
-    .bio {
+    .card {
         position: relative;
-        margin: 100px;
-        width: 500px;
+        margin: 10%;
+        width: 90%;
         
         
     }
     
-    .bio:before, .bio:after {
+   /* .bio:before, .bio:after {
         content: '';
-        position: absolute;
+        position: relative;
         left: -2px;
         top: -2px;
         background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
@@ -174,12 +207,12 @@ height: 700px;
 
     
     .bio:after {
-        filter: blur(50px);
-    }
+        filter: blur(50px);} */
+    
     
 
  .family
-    { margin: 100px ;
+    { 
         box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
     }
 
@@ -261,10 +294,6 @@ height: 700px;
         -ms-filter: blur(10px);
         filter: blur(10px);
       }
- .gallery{
-     
-     padding: 0%;
- }     
         .test {
                   
             display: inline-block;
@@ -275,8 +304,8 @@ height: 700px;
           
           #test1 {
               background: 
-                  radial-gradient(circle at left top, rgb(209, 17, 129) 140px, transparent 150px),
-                radial-gradient(circle at right top, rgb(20, 93, 189) 140px, transparent 150px),
+                  radial-gradient(circle at left top, rgb(11, 143, 167) 140px, transparent 150px),
+                radial-gradient(circle at right top, rgb(28, 219, 28) 140px, transparent 150px),
                 cyan;
               background-clip: content-box, border-box, border-box, border-box;
             background-origin: content-box, border-box, border-box, border-box;
@@ -284,8 +313,8 @@ height: 700px;
           
           #test2 {
               background: 
-                  linear-gradient(to bottom right, rgb(209, 17, 129) 120px, transparent 150px),
-                linear-gradient(to bottom left, rgb(11, 84, 180) 120px, transparent 150px),
+                  linear-gradient(to bottom right, rgb(59, 97, 201) 120px, transparent 150px),
+                linear-gradient(to bottom left, rgb(128, 207, 218) 120px, transparent 150px),
                 cyan;
               background-clip: content-box, border-box, border-box, border-box;
             background-origin: content-box, border-box, border-box, border-box;
@@ -314,7 +343,35 @@ height: 700px;
             
           }
           
-    
-          
-    
-          
+@media(max-width: 768px){
+  .navbar{
+    height: 90px;
+  width:82%;
+  }
+  .navbar .flex{
+   flex-direction: column;
+  }
+  .navbar ul{
+    padding: 10px;
+    background-color: #371097;
+  }
+ 
+
+}    
+  @media(max-width: 576px){
+ .navbar{
+   height: 110px;
+
+ }
+ .navbar .flex{
+  flex-direction: column;
+ }
+ .navbar ul{
+   padding: 10px;
+   background-color: #371097;
+ }
+ .gallery{
+   width: 100%;
+ }
+
+  }        
